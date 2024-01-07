@@ -36,3 +36,9 @@ button:hover{
     margin-bottom: 30px;
     padding: 22px;
 }
+form{
+    width: 500px;
+    box-shadow: 5px 25px 55px;
+    height: 600px;
+    border-radius: 16px;
+}
