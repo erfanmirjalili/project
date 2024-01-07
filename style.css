@@ -14,3 +14,11 @@ h1{
 button{
     background: #7895cb;
 }
+.box{
+    color: #e0dede;
+    border-radius: 3px;
+    border: none;
+    width: 80%;
+    margin-bottom: 40px;
+    padding: 10px;
+}
