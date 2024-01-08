@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
-        <h1>Sign up</h1>
-        <input class="box" type="text" placeholder="user name">
-        <input class="box" type="text" placeholder="Email">
-        <input class="box" type="text" placeholder="password">
-        <button>sign up</button>
-    </form>
+    <div class="main">
+        <input type="checkbox" id="check" aria-hidden="true">
+        <div class="signup">
+            <form>
+                <label for="check">sign up</label>
+                <input class="box" type="text" placeholder="user name" required>
+                <input class="box" type="text" placeholder="Email" required>
+                <input class="box" type="text" placeholder="password" required>
+                <button>sign up</button>
+            </form>
+        </div>
+
+        <div class="login">
+            <form>
+                <label for="check">log in</label>
+                <input class="box" type="text" placeholder="Email" required>
+                <input class="box" type="text" placeholder="password" required>
+                <button>log in</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
