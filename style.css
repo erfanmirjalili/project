@@ -77,3 +77,11 @@ button:hover{
     border-radius: 60% / 10%;
 
 }
+.login label{
+    color: #4a55a2;
+    transform: scale(.7);
+}
+
+#check:checked ~ .login{
+    transform: translateY(-575px);
+}
